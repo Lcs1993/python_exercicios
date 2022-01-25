@@ -1,4 +1,4 @@
 n = int(input('digite um numero'))
-print('O dobro do numero é {}'.format(n+n))
-print('O triplo do numero é {}'.format(n+n+n))
-print('A raiz quadrada do numero é {}'.format(n**2))
+print('O dobro de {} vale {}'.format(n,n+n))
+print('O triplo de {} vale {}'.format(n,n+n+n))
+print('A raiz quadrada de {} é igual a {:.2f}'.format(n,pow(n,(1/2))))

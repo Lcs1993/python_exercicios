@@ -1,3 +1,7 @@
-n = int(input('digite valor em metros'))
+n = float(input('digite valor em metros: '))
 print('valor em centimetros {}'.format(n*100))
 print('valor em milimetros {}'.format(n*1000))
+print('Valor em decimetros {}'.format(n*10))
+print('Valor em decametros {}'.format(n/10))
+print('Valor em hectometro {}'.format(n/100))
+print('Valor em quilometro {}'.format(n/1000))
